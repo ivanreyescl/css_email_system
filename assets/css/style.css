@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing:border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color:#282d2e
+}
+/*GENERALES*/
+
+body {
+    background-color: #f8f8f8;
+}
+
+
+aside{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 120vh;
+    border:1px solid black
+}
+
+h3{
+    font-weight: normal;
+}
+
+/* caja principal*/
+
+.box-1{
+    height: 100%;
+    display: flex;
+}   
+
+
+.box-1 > section > article > img{
+    height:20rem;
+}
+
+.box-1 > aside > section{
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 15px;
+}
+
+/* perfil */
+
+.profile_field {
+    border:2px solid #E8EBE4;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+}
+
+.profile_image {
+    height: 3.2rem;
+    border-radius: 30px;
+    border: 1px solid #E0e0e0;
+}
+
+.profile_header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding:2px 20px 2px 20px;
+}
+
+.profile_text{
+    padding:12px;
+    margin-top: -3%;
+    margin-left:-56px
+}
+.profile_text > small {
+    color:rgb(75, 74, 74);
+}
+.icons{
+    margin:2px -10px 2px 10px;
+    margin-top: 3%;
+}
+
+.icons > i{
+    color:#959797;
+    font-size:25px;
+}
+
+
+/* caja de botones */
+
+.button-box{
+    border:2px solid #E8EBE4;
+    display:flex;
+    justify-content: center;
+}
+
+.box-1 > aside > section > button{
+    background-color:#A491D2;
+    color: white;
+    padding:18px;
+    border: 0px solid black;
+    width:13rem;
+    font-size:1.2rem;
+    margin: 20px 0px 20px 0px;
+}
+
+/*chats*/
+.chats_header{
+    display:flex;
+    padding:3px 12px 3px 12px;
+}
+
+.chats_text{
+    padding:12px;
+    font-size: 1.1rem;
+    margin-top: -2%;
+}
+
+.chats{
+    border:2px solid #E8EBE4;
+}
+
+.chats_images {
+    height: 4rem;
+    border-radius: 30px;
+    border: 1px solid #E0e0e0;
+}
+
+/* main*/
+
+main{
+    background-color:#F8F8F8;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    height: 100vh;
+}
+
+main > h1 {
+    font-size:3.5rem;
+    font-weight: normal;
+}
+
+main > p {
+    text-align: center;
+    font-size:1.3rem;
+    font-weight:300;
+}
+
+main > img{
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+}
